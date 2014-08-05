@@ -38,7 +38,7 @@ $params = $this->params;
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	</head>
 	<body>
-		<?php if($blankj3_helper->show_top || $blankj3_helper->show_top_left || $blankj3_helper->show_center || $blankj3_helper->show_right): ?>
+		<?php if($blankj3_helper->show_top || $blankj3_helper->show_top_left || $blankj3_helper->show_top_center || $blankj3_helper->show_top_right): ?>
 		<header>
 			<?php if($blankj3_helper->show_top): ?>
 			<section id="top">
